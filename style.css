@@ -6,6 +6,13 @@ Hey this is a CSS file!
 	color: green;
 }
 
+
+@media only screen and (max-width: 800px) {
+	body {
+		background-color: palegoldenrod;
+	}
+}
+
 #last-lab {
 	color: rgb(255, 0, 150)
 }
@@ -93,4 +100,39 @@ video {
 #the-chosen-one {
 	left: 5ch;
 	position: relative;
+}
+
+aside {
+	text-align: right;
+}
+
+.flex {
+	display: flex;
+	background-color: yellowgreen;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+}
+
+.flex > div {
+	background-color: darkblue;
+	margin: 10px;
+	padding: 20px 100px 100px 20px;
+	flex-grow: 1;
+}
+
+.grid {
+	display: grid;
+	background-color: blue;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	width: 500px;
+	height: 500px;
+}
+
+.grid > div {
+	background-color: orangered;
+	margin: 10px;
+	padding: 20px 100px 100px 20px;
+	justify-self: center;
+	align-self: end;
 }
