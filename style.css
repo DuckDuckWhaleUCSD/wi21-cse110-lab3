@@ -48,7 +48,7 @@ a[href="https://www.google.com"] {
 }
 
 li:hover {
-	color: rgba(255, 0, 150, 10);
+	color: rgba(255, 0, 150, 1);
 	display: inline-block;
 	height: 40px;
 	width: 700px;
